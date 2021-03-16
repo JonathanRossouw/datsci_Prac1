@@ -64,7 +64,7 @@ filter_df <- filter_func(dat = df_Brics, start_date = as.Date("2008-01-01"), end
 
 ## Calculating Returns
 
-Calculate simple return in the form $\frac{X}{lagX} - 1$.
+Calculate simple return in the form &fracXlagX - 1.
 
 ```{r}
 ret_df <- ret_calc(dat = filter_df)
